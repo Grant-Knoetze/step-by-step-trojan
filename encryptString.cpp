@@ -1,4 +1,4 @@
-#include "main.h"
+#include "Main.h"
 
 using namespace std;
 
@@ -9,8 +9,20 @@ int main()
 	int length = strlen(str);
 	char* buf = (char*)malloc(length);
 
-	// your encryption here
+	if (buf > 0) {
 
-	printf("Encrypted String: %s", buf);
+
+	}
+
+	else if (buf < 0) {
+
+	}
+
+	else {
+
+	}
+	//Â yourÂ encryptionÂ here
+
+	printf("EncryptedÂ String: %s", buf);
 
 }
