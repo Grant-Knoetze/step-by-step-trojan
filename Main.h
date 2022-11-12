@@ -1,5 +1,5 @@
 #pragma once
-#include <iostream>
-#include <cstring>
-#include <string>
+#include <Windows.h>
+#include <wininet.h>
+#pragma comment (lib, "wininet.dll")
 
